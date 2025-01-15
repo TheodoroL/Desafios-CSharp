@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿var retangulo = new Retangulo(30, 40);
+
+Console.WriteLine(retangulo.Area());
+Console.WriteLine(retangulo.Perimetro());
